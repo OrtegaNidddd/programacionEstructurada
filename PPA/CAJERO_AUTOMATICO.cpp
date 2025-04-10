@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 //Se declara un separador para tener una mejor visualizacion del programa al momento de ejecutarlo
@@ -65,11 +66,13 @@ void retirar() {
 
 
 int main() {
+    system("Color 2f");
     //Se declara la variable opcion para el menu
     int opcion;
 
     //Ciclo do-while para ejecutar el programa de manera continua sin interrupciones, siempre y cuando la opcion que marque el usuario sea la opcion de salida (4)
     do {
+        system("cls");
         //Se imprime el menu, mostrando cada opcion con su respectivo indicativo
         cout << "=========================\n=== CAJERO AUTOMATICO ===\n=========================" << endl;
         cout << "Ver Saldo  (1)" << endl;
@@ -104,6 +107,7 @@ int main() {
             break;
         }
     } while (opcion != 4);
+
     //Programa finaliza con exito
     return 0;
 }

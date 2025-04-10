@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_S2_PROGRAMACION_ESTRUCTURADA: phony || .
 
 build CMakeFiles/S2_PROGRAMACION_ESTRUCTURADA.dir/CALCULADORA/main.cpp.obj: CXX_COMPILER__S2_PROGRAMACION_ESTRUCTURADA_unscanned_Debug D$:/Datos/escritorio/FESC/S2$ PROGRAMACION$ ESTRUCTURADA/CALCULADORA/main.cpp || cmake_object_order_depends_target_S2_PROGRAMACION_ESTRUCTURADA
   DEP_FILE = CMakeFiles\S2_PROGRAMACION_ESTRUCTURADA.dir\CALCULADORA\main.cpp.obj.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  FLAGS = -static -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\S2_PROGRAMACION_ESTRUCTURADA.dir
   OBJECT_FILE_DIR = CMakeFiles\S2_PROGRAMACION_ESTRUCTURADA.dir\CALCULADORA
 
@@ -64,7 +64,7 @@ build CMakeFiles/S2_PROGRAMACION_ESTRUCTURADA.dir/CALCULADORA/main.cpp.obj: CXX_
 # Link the executable S2_PROGRAMACION_ESTRUCTURADA.exe
 
 build S2_PROGRAMACION_ESTRUCTURADA.exe: CXX_EXECUTABLE_LINKER__S2_PROGRAMACION_ESTRUCTURADA_Debug CMakeFiles/S2_PROGRAMACION_ESTRUCTURADA.dir/CALCULADORA/main.cpp.obj
-  FLAGS = -g
+  FLAGS = -static -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\S2_PROGRAMACION_ESTRUCTURADA.dir
   POST_BUILD = cd .
