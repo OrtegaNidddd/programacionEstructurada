@@ -1,3 +1,0 @@
-D:/Datos/escritorio/FESC/S2 PROGRAMACION ESTRUCTURADA/cmake-build-debug/CMakeFiles/S2_PROGRAMACION_ESTRUCTURADA.dir
-D:/Datos/escritorio/FESC/S2 PROGRAMACION ESTRUCTURADA/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Datos/escritorio/FESC/S2 PROGRAMACION ESTRUCTURADA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

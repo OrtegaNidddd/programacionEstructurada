@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 3.30)
-project(S2_PROGRAMACION_ESTRUCTURADA)
-
-set(CMAKE_CXX_STANDARD 20)
-
-add_executable(S2_PROGRAMACION_ESTRUCTURADA CALCULADORA/main.cpp)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static")
