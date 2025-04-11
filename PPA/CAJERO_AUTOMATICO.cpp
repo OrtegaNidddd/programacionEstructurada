@@ -72,13 +72,15 @@ int main() {
 
     //Ciclo do-while para ejecutar el programa de manera continua sin interrupciones, siempre y cuando la opcion que marque el usuario sea la opcion de salida (4)
     do {
+        system("pause");
         system("cls");
         //Se imprime el menu, mostrando cada opcion con su respectivo indicativo
         cout << "=========================\n=== CAJERO AUTOMATICO ===\n=========================" << endl;
-        cout << "Ver Saldo  (1)" << endl;
-        cout << "Depositar  (2)" << endl;
-        cout << "Retirar    (3)" << endl;
-        cout << "Salir      (4)" << endl;
+        cout << "Ver Saldo  (1)." << endl;
+        cout << "Depositar  (2)." << endl;
+        cout << "Retirar    (3)." << endl;
+        cout << "Salir      (4)." << endl;
+        cout << "Digite una opcion." << endl;
         //Se lee la opcion para indicar que se desea realizar
         cin >> opcion;
         cout << "=========================" << endl;
