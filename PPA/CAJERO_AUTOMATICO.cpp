@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <windows.h>
 using namespace std;
 
 //Se declara un separador para tener una mejor visualizacion del programa al momento de ejecutarlo
@@ -12,6 +13,8 @@ int saldo = 1000;
 void verSaldo(){
     cout << separador << endl;
     //Imprime el saldo actual que se tiene registrado
+    cout << "Procesando su solicitud...\n";
+    Sleep(300); // 1 segundo (en Windows)
     cout << "Saldo Actual: " << saldo << endl;
     cout << separador << endl;
 }
@@ -33,6 +36,8 @@ void depositar() {
         //Se le suma la cantidad a depositar al saldo actual
         saldo+=cantidad;
         //Se imprime el nuevo saldo
+        cout << "Procesando su solicitud...\n";
+        Sleep(1000); // 1 segundo (en Windows)
         cout << "Deposito exitoso. Nuevo saldo: " << saldo << endl;
     } else {
         cout << "Cantidad invalida." << endl;
@@ -57,29 +62,36 @@ void retirar() {
         //Se resta la cantidad a retirar del saldo actual
         saldo-=cantidad;
         //Se imprime el nuevo saldo
+        cout << "Procesando su solicitud...\n";
+        Sleep(1000); // 1 segundo (en Windows)
         cout << "Retiro exitoso. Nuevo saldo: " << saldo << endl;
     } else {
         cout << "Cantidad invalida." << endl;
-
     }
 }
 
 
 int main() {
-    system("Color 2f");
+    system("Color 1f");
     //Se declara la variable opcion para el menu
     int opcion;
+    std::string nombre = "";
+
+    cout << "Ingrese su nombre: ";
+    cin >> nombre;
+    cout << "Hola " << nombre << ", que deseas realizar?\n";
+    Sleep(1000); // 1 segundo (en Windows)
 
     //Ciclo do-while para ejecutar el programa de manera continua sin interrupciones, siempre y cuando la opcion que marque el usuario sea la opcion de salida (4)
     do {
         system("pause");
         system("cls");
         //Se imprime el menu, mostrando cada opcion con su respectivo indicativo
-        cout << "=========================\n=== CAJERO AUTOMATICO ===\n=========================" << endl;
-        cout << "Ver Saldo  (1)." << endl;
-        cout << "Depositar  (2)." << endl;
-        cout << "Retirar    (3)." << endl;
-        cout << "Salir      (4)." << endl;
+        cout << "=========================\n=== CAJERO AUTOMATICO ===\n==== MENU  PRINCIPAL ====\n=========================" << endl;
+        cout << "[1]    Ver Saldo" << endl;
+        cout << "[2]    Depositar" << endl;
+        cout << "[3]    Retirar" << endl;
+        cout << "[4]    Salir" << endl;
         cout << "Digite una opcion." << endl;
         //Se lee la opcion para indicar que se desea realizar
         cin >> opcion;
@@ -87,21 +99,18 @@ int main() {
 
         //Se verifica cual es la opcion que se solicito
         switch (opcion) {
-            //Llama a la funcion verSaldo() si es 1
-            case 1:
-                verSaldo();
-            break;
-            //Llama a la funcion depositar() si es 2
-            case 2:
-                depositar();
-            break;
-            //Llama a la funcion retirar() si es 3
+            case 1: verSaldo(); break;
+            case 2: depositar(); break;
             case 3:
-                retirar();
+                if (saldo == 0) {
+                    cout << "No tiene saldo disponible en su cuenta." << endl;
+                } else {
+                    retirar();
+                }
             break;
-            //Imprime la despedida/salida del programa si es 4
             case 4:
                 cout << "Gracias por usar el cajero." << endl;
+                system("pause");
             break;
             //Si se usa cualquier otro numero o caracter sera invalido e imprime que la opcion no es valida
             default:

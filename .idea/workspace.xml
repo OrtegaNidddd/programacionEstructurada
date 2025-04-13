@@ -29,15 +29,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8d8586f-7095-4563-b222-0d799666e2a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Actividad Codewars/ejercicio 1/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Actividad Codewars/ejercicio 1/main.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Actividad Codewars/ejercicio 2/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Actividad Codewars/ejercicio 2/main.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CAJERO_AUTOMATICO.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CAJERO_AUTOMATICO.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PPA/CAJERO_AUTOMATICO.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PPA/CAJERO_AUTOMATICO.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.exe" beforeDir="false" afterPath="$PROJECT_DIR$/main.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CALCULADORA/main.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PPA/CAJERO_AUTOMATICO.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PPA/CAJERO_AUTOMATICO.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -89,7 +83,7 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Datos/escritorio/FESC/S2 PROGRAMACION ESTRUCTURADA/PPA/mlmlm.cpp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Datos/escritorio/FESC/S2 PROGRAMACION ESTRUCTURADA/PPA/CAJERO_AUTOMATICO.cpp&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -109,10 +103,16 @@
       <recent name="D:\Datos\escritorio\FESC\S2 PROGRAMACION ESTRUCTURADA" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.mlmlm.cpp">
+  <component name="RunManager" selected="C/C++ File.CAJERO_AUTOMATICO.cpp">
     <configuration name="S2_PROGRAMACION_ESTRUCTURADA" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S2_PROGRAMACION_ESTRUCTURADA" TARGET_NAME="S2_PROGRAMACION_ESTRUCTURADA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="S2_PROGRAMACION_ESTRUCTURADA" RUN_TARGET_NAME="S2_PROGRAMACION_ESTRUCTURADA">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CAJERO_AUTOMATICO.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S2_PROGRAMACION_ESTRUCTURADA" TARGET_NAME="CAJERO_AUTOMATICO.cpp" CONFIG_NAME="CAJERO_AUTOMATICO.cpp">
+      <option name="sourceFile" value="D:\Datos\escritorio\FESC\S2 PROGRAMACION ESTRUCTURADA\PPA\CAJERO_AUTOMATICO.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S2_PROGRAMACION_ESTRUCTURADA" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
@@ -121,16 +121,10 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mlmlm.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S2_PROGRAMACION_ESTRUCTURADA" TARGET_NAME="mlmlm.cpp" CONFIG_NAME="mlmlm.cpp">
-      <option name="sourceFile" value="D:\Datos\escritorio\FESC\S2 PROGRAMACION ESTRUCTURADA\PPA\mlmlm.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="CMake Application.S2_PROGRAMACION_ESTRUCTURADA" />
+      <item itemvalue="C/C++ File.CAJERO_AUTOMATICO.cpp" />
       <item itemvalue="C/C++ File.main.cpp" />
-      <item itemvalue="C/C++ File.mlmlm.cpp" />
+      <item itemvalue="CMake Application.S2_PROGRAMACION_ESTRUCTURADA" />
     </list>
     <recent_temporary>
       <list>
@@ -163,7 +157,8 @@
       <workItem from="1744112774683" duration="862000" />
       <workItem from="1744256144058" duration="2400000" />
       <workItem from="1744371608426" duration="5514000" />
-      <workItem from="1744382087682" duration="2000" />
+      <workItem from="1744382087682" duration="2110000" />
+      <workItem from="1744501203963" duration="2153000" />
     </task>
     <servers />
   </component>
