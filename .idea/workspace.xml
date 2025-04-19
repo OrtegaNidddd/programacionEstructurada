@@ -29,9 +29,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8d8586f-7095-4563-b222-0d799666e2a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO5.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CAJERO_AUTOMATICO.exe" beforeDir="false" afterPath="$PROJECT_DIR$/CAJERO_AUTOMATICO.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PPA/CAJERO_AUTOMATICO.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PPA/CAJERO_AUTOMATICO.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EJERCICIOS PRACTICOS/reto-47.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +57,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CALCULADORA/main.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO1.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO2.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EJERCICIOS PRACTICOS/EJERCICIO3.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PPA/CAJERO_AUTOMATICO.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectApplicationVersion">
@@ -59,41 +72,49 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2tElAXLye03rovNZT5VtFIpMSsw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ File.CAJERO_AUTOMATICO.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.ejemplo1-28-Marzo.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.ejemplo3-28-Marzo.cpp (1).executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.main.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.mlmlm.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.reto-47.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;C/C++ File.santiago.cpp.executor&quot;: &quot;Run&quot;,
-    &quot;CMake Application.S2_PROGRAMACION_ESTRUCTURADA.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Datos/escritorio/FESC/S2 PROGRAMACION ESTRUCTURADA/PPA/CAJERO_AUTOMATICO.cpp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Datos/escritorio/FESC/S2 PROGRAMACION ESTRUCTURADA/main.cpp&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ File.CAJERO_AUTOMATICO.cpp.executor": "Run",
+    "C/C++ File.EJERCICIO1.cpp.executor": "Run",
+    "C/C++ File.EJERCICIO2.cpp.executor": "Run",
+    "C/C++ File.EJERCICIO3.cpp.executor": "Run",
+    "C/C++ File.EJERCICIO4.cpp.executor": "Run",
+    "C/C++ File.EJERCICIO5.cpp.executor": "Debug",
+    "C/C++ File.ejemplo1-28-Marzo.cpp.executor": "Run",
+    "C/C++ File.ejemplo3-28-Marzo.cpp (1).executor": "Run",
+    "C/C++ File.main.cpp.executor": "Run",
+    "C/C++ File.mlmlm.cpp.executor": "Run",
+    "C/C++ File.reto-47.cpp.executor": "Run",
+    "C/C++ File.santiago.cpp.executor": "Run",
+    "CMake Application.S2_PROGRAMACION_ESTRUCTURADA.executor": "Debug",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Datos/escritorio/FESC/S2 PROGRAMACION ESTRUCTURADA/EJERCICIOS PRACTICOS/EJERCICIO5.cpp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/Datos/escritorio/FESC/S2 PROGRAMACION ESTRUCTURADA/main.cpp",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Datos\escritorio\FESC\S2 PROGRAMACION ESTRUCTURADA\Ejemplos 28 Marzo\Ejemplo 3" />
@@ -115,6 +136,12 @@
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EJERCICIO5.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S2_PROGRAMACION_ESTRUCTURADA" TARGET_NAME="EJERCICIO5.cpp" CONFIG_NAME="EJERCICIO5.cpp">
+      <option name="sourceFile" value="D:\Datos\escritorio\FESC\S2 PROGRAMACION ESTRUCTURADA\EJERCICIOS PRACTICOS\EJERCICIO5.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="S2_PROGRAMACION_ESTRUCTURADA" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
       <option name="sourceFile" value="Actividad Codewars/ejercicio 1/main.cpp" />
       <method v="2">
@@ -123,6 +150,7 @@
     </configuration>
     <list>
       <item itemvalue="C/C++ File.CAJERO_AUTOMATICO.cpp" />
+      <item itemvalue="C/C++ File.EJERCICIO5.cpp" />
       <item itemvalue="C/C++ File.main.cpp" />
       <item itemvalue="CMake Application.S2_PROGRAMACION_ESTRUCTURADA" />
     </list>
@@ -158,7 +186,11 @@
       <workItem from="1744256144058" duration="2400000" />
       <workItem from="1744371608426" duration="5514000" />
       <workItem from="1744382087682" duration="2110000" />
-      <workItem from="1744501203963" duration="2153000" />
+      <workItem from="1744501203963" duration="2592000" />
+      <workItem from="1744935170694" duration="6171000" />
+      <workItem from="1744990701222" duration="6000" />
+      <workItem from="1744990725258" duration="2420000" />
+      <workItem from="1745014792685" duration="7914000" />
     </task>
     <servers />
   </component>
