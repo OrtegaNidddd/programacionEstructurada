@@ -14,7 +14,7 @@ void verSaldo(){
     cout << separador << endl;
     //Imprime el saldo actual que se tiene registrado
     cout << "Procesando su solicitud...\n";
-    Sleep(300); // 1 segundo (en Windows)
+    Sleep(300); 
     cout << "Saldo Actual: " << saldo << endl;
     cout << separador << endl;
 }
@@ -37,7 +37,7 @@ void depositar() {
         saldo+=cantidad;
         //Se imprime el nuevo saldo
         cout << "Procesando su solicitud...\n";
-        Sleep(1000); // 1 segundo (en Windows)
+        Sleep(1000);
         cout << "Deposito exitoso. Nuevo saldo: " << saldo << endl;
     } else {
         cout << "Cantidad invalida." << endl;
@@ -63,7 +63,7 @@ void retirar() {
         saldo-=cantidad;
         //Se imprime el nuevo saldo
         cout << "Procesando su solicitud...\n";
-        Sleep(1000); // 1 segundo (en Windows)
+        Sleep(1000); 
         cout << "Retiro exitoso. Nuevo saldo: " << saldo << endl;
     } else {
         cout << "Cantidad invalida." << endl;
@@ -80,7 +80,7 @@ int main() {
     cout << "Ingrese su nombre: ";
     cin >> nombre;
     cout << "Hola " << nombre << ", que deseas realizar?\n";
-    Sleep(1000); // 1 segundo (en Windows)
+    Sleep(1000);
 
     //Ciclo do-while para ejecutar el programa de manera continua sin interrupciones, siempre y cuando la opcion que marque el usuario sea la opcion de salida (4)
     do {
